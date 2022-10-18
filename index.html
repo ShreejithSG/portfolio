@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <nav id="navbar">
+            <label class="logo">
+                Portfolio
+            </label>
+        <ul id="menu">
+            <li><a class="active" href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#work">Work</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="#">Sign Up</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>    
+    </nav>
+
+    <section id="home">
+        <img src="images/first.jpeg" id="first">
+        <img src="images/last.png" id="last">
+        <h1 id="text">Shreejith SG</h1>
+    </section>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/dp.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a flexible and hardworking software enthusiast working towards putting my managerial skills and technical prowess to use. I aspire to be an Entrepreneur in Technological fields.</p>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br> <i>Building websites using HTML, CSS and Javascript</i></li>
+                            <li><span>Backend Development</span><br><i>Python, C/C++, Java, mySQL, PHP</i></li>
+                            <li><span>Management</span></li>
+                            <li><span>Photography</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>April 2022 - Sep 2022</span><i> <b> - Research Intern at Centre of Smart Grid Technologies</b></i> <br>Integrating Federated Machine Learning into Smart Grid to develop innovative solutions for renewable energy</li>
+                            <li><span>2020 - Present</span><i> <b> - Vice President of Microsoft Innovations Club</b></i><br>Organise and overlook all events, activites and decision-making related to the club. <br>
+                                Supervise the overall smooth functioning of the club.</li>
+                            <li><span>2020 - Present</span><i><b> - Overall Head of VIT Finance and Management Club</b></i><br>Managed and supervised multiple events. <br>
+                                Contributed in holistic development of the club from the ground up.</li>
+                            <li><span>April 2022</span><i> <b> - HackRx 3.0 - Bajaj Finserv Hackathon</b></i><br>One of the top 10 teams to be selected to present in front of grand jury consisting of CEOs of Bajaj Alliance</li>
+                            <li><span>2020 - Present</span><i> <b> - Photography Department </b></i><br>Got featured in the Photography Club's social media page and VIT Chennai's official instagram page. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education" style="padding: 5px;">
+                        <ul>
+                            <li><span>2020 - Present</span><br><b>Vellore Institute of Technology,Chennai </b><br>Bachelor of Technology in Computer Science and Engineering</li>
+                            <li><span>2006 - 2020</span><br><b>Chinmaya Vidyalaya Anna nagar </b><br>12th CBSE Board (PCM) - 96% <br> School Topper for Computer Science <br>School Topper in Intrenational Maths Olympiad <br>Top 2% in JEE Main - Mathematics</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="work">
+        <h1 class="sub-title">My Work</h1>
+
+        <div class="row">
+            <div class="work-col">
+                <a href=""><img src="images/photography-main.webp"></a>
+                <a href="https://drive.google.com/drive/folders/1LP6gefHWaeSSKJdq8qBxH6YizezRAZhw"><div class="layer">
+                    <h5>Photography</h5>
+                </div></a>
+                
+            </div>
+            
+            <div class="work-col">
+                <img src="images/coding-main.png">
+                <a href="https://leetcode.com/ShreejithSG"><div class="layer">
+                    <h5>Coding</h5>
+                </div></a>
+                
+            </div>
+            <div class="work-col">
+                <a href=""><img src="images/project-main.jpeg"></a>
+                <div class="layer">
+                    <h5>Projects</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="content">
+            <h1 class="sub-title">Contact Me</h1>
+        </div>
+        <div class="container">
+            <div class="contactInfo">
+                <div class="box">
+                    <div class="icon"></div>
+                    <div class="text-contact">
+                        <h2>Address</h2>
+                        <p>Chennai, Tamil Nadu</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"></div>
+                    <div class="text-contact">
+                        <h2>Phone</h2>
+                        <p>+91 6379158311</p>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="icon"></div>
+                    <div class="text-contact">
+                        <h2>Email</h2>
+                        <p>shreejithsg@gmail.com</p>
+                    </div>
+                </div>
+
+                <a href="images/Shreejith Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contactForm">
+                <form action="">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Full Name</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" name="" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" name="" value="Send">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<script>
+
+    var navbar = document.getElementById("navbar");
+    var menu = document.getElementById("menu");
+
+    window.onscroll = function(){
+        if(window.pageYOffset >= menu.offsetTop){
+            navbar.classList.add("sticky");
+        }
+        else{
+            navbar.classList.remove("sticky");
+        }
+    }
+
+    let first = document.getElementById("first");
+    let last = document.getElementById("last");
+    let text = document.getElementById("text");
+
+    window.addEventListener('scroll',function(){
+        var value = window.scrollY;
+
+        first.style.top = value * 0.7 + 'px';
+        last.style.bottom = value * 0.5 + 'px';
+        text.style.top = value * 1 + 'px';
+    })
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+
+
+</body>
+</html>
